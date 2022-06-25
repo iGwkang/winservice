@@ -18,7 +18,7 @@ var (
 func main() {
 	flag.Parse()
 
-	ws := &WinService{
+	ws := &winservice.WinService{
 		SvcName: serviceName,
 		ExecuteFunc: func() {
 
